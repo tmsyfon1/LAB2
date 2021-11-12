@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.picture-1 {
+    background-image: url("https://media.discordapp.net/attachments/872343159441616924/908694081381732402/FB_IMG_1636290443941.jpg");
+}
+
+.picture-2 {
+    background-image: url("https://media.discordapp.net/attachments/872343159441616924/908694081381732402/FB_IMG_1636290443941.jpg");
+}
+
+.picture-3 {
+    background-image: url("https://media.discordapp.net/attachments/872343159441616924/908694081381732402/FB_IMG_1636290443941.jpg");
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: rgb(46, 99, 179);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
